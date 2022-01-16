@@ -1,0 +1,21 @@
+:root {
+  --white-color: #ffffff;
+  --header-title-color: #212121;
+  --primary-text-color: #757575;
+  --second-text-color: rgba(255, 255, 255, 0.6);
+  --accent-color: #2196f3;
+  --focus-hover-color: #188ce8;
+  --first-accent-color: #000000;
+  --about-us-color: #f5f4fa;
+  --background-hero-footer-color: #2f303a;
+}
+
+//*----Font-size----*//
+$text-xxxl: 44px; // hero;
+$text-xxl: 36px; // works-itle;
+$text-xl: 26px; // logo, logo-third;
+$text-l: 20px; // modal__head;
+$text-m: 18px; // projects-title, project__text;
+$text-s: 16px; // hero-btn, team-name, team-position, filter-button, project-text, mail-container__input, modal__button;
+$text-xs: 14px; // menu-list, adress-list, advantage-list, works-text, footer-address, join-container, mail-container, modal;
+$text-xxs: 12px; // modal-field;
