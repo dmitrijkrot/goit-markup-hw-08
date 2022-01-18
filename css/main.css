@@ -43,10 +43,22 @@ body {
 
 .container {
   width: 1200px;
+  /*  */
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+  /* @media screen and (min-width: 480px) {
+    width: 480px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 768px;
+  }
+
+  @media screen and (min-width:1200px) {
+    width: 1200px;
+  } */
 }
 
 .list {
@@ -274,6 +286,22 @@ a {
   margin-right: 93px;
   padding-top: 24px;
   padding-bottom: 25px;
+  /* @media screen and (min-width: 480px) {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  @media screen and (min-width: 768px) {
+    margin-right: 88px;
+    padding-top: 26px;
+    padding-bottom: 26px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-right: 93px;
+    padding-top: 24px;
+    padding-bottom: 25px;
+  } */
 }
 
 .logo {
@@ -282,6 +310,20 @@ a {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  /* @media screen and (min-width: 480px) {
+    font-size: $text-xll;
+    line-height: 1.17;
+  }
+
+  @media screen and (min-width: 768px) {
+    font-size: $text-xll;
+    line-height: 1.17;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: $text-xl;
+    line-height: 1.19;
+  } */
 }
 
 .logo-first {
@@ -305,6 +347,20 @@ a {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--white-color);
+  /* @media screen and (min-width: 480px) {
+    font-size: $text-xll;
+    line-height: 1.17;
+  }
+
+  @media screen and (min-width: 768px) {
+    font-size: $text-xll;
+    line-height: 1.17;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: $text-xl;
+    line-height: 1.19;
+  } */
 }
 
 .hero__btn {
