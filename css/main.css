@@ -368,20 +368,27 @@ a {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--white-color);
-  /* @media screen and (min-width: 480px) {
-    font-size: $text-xll;
+}
+
+@media screen and (min-width: 480px) {
+  .logo-third {
+    font-size: 24px;
     line-height: 1.17;
   }
+}
 
-  @media screen and (min-width: 768px) {
-    font-size: $text-xll;
+@media screen and (min-width: 768px) {
+  .logo-third {
+    font-size: 24px;
     line-height: 1.17;
   }
+}
 
-  @media screen and (min-width: 1200px) {
-    font-size: $text-xl;
+@media screen and (min-width: 1200px) {
+  .logo-third {
+    font-size: 26px;
     line-height: 1.19;
-  } */
+  }
 }
 
 .hero__btn {
@@ -713,9 +720,7 @@ a {
 
 @media screen and (min-width: 768px) {
   .advantage-list__item {
-    width: -webkit-calc((100%-2*30px)/2);
-    width: calc((100%-2*30px)/2);
-    margin: 15px;
+    width: 354px;
   }
 }
 
@@ -725,11 +730,12 @@ a {
   }
 }
 
-/* .advantage-list__item:not(:last-child) {
-  @media screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
+  .advantage-list__item:not(:last-child) {
     margin-right: 30px;
   }
-} */
+}
+
 .advantage-list__icon {
   padding-top: 25px;
   padding-bottom: 25px;
