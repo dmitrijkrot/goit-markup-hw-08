@@ -28,13 +28,12 @@ body {
 }
 
 .container {
-  width: 1200px;/*  */
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
 
-  /* @media screen and (min-width: 480px) {
+  @media screen and (min-width: 480px) {
     width: 480px;
   }
 
@@ -42,9 +41,9 @@ body {
     width: 768px;
   }
 
-  @media screen and (min-width:1200px) {
+  @media screen and (min-width: 1200px) {
     width: 1200px;
-  } */
+  }
 }
 
 .list {
@@ -56,8 +55,15 @@ a {
 }
 
 .section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  @media screen and (min-width: 480px) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 
 .visually-hidden {
